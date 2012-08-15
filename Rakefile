@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Blogster::Application.load_tasks
+Bloggie::Application.load_tasks
