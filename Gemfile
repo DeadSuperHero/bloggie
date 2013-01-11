@@ -1,13 +1,15 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
+gem 'tentd'
+gem 'tentd-admin'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'pg'
 
 gem 'json'
-gem 'devise'
+gem 'devise', '~> 2.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -18,7 +20,7 @@ group :assets do
   gem "zurb-foundation", :group => :assets
   gem 'haml', '~> 3.2.0.alpha.10'
   gem 'redcarpet'
-  gem 'handlebars'
+  gem 'handlebars_assets', '0.6.6'
   gem "paperclip", "~> 3.0"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
